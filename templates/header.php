@@ -10,6 +10,8 @@ $dots = str_repeat(".", $dots);
 // CLASES
 $actividad2 = $dots."/class/class.actividad2.php";
 include_once $actividad2;
+$actividad3 = $dots."/class/class.actividad3.php";
+include_once $actividad3;
 ?>
 <head>
     <meta charset="UTF-8">
@@ -31,7 +33,7 @@ include_once $actividad2;
 <header class="header" id="myHeader">
     <ul id="dropdown1" class="dropdown-content">
         <li class="divider"></li>
-        <li><a href="<?php echo $dots; ?>/Compras_view.php">Compras</a></li>
+        <li><a href="<?php echo $dots; ?>/index.php">Inicio</a></li>
         <li class="divider"></li>
     </ul>
     <nav>

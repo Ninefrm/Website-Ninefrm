@@ -9144,3 +9144,31 @@ nav{
   background-repeat: no-repeat;
   
 }
+
+.border{
+  border-style: groove !important;
+}
+
+.hidden{
+  display:none !important;
+}
+
+.zTop{
+  z-index: 1000 !important;
+}
+
+.zDown{
+  z-index: 10 !important;
+}
+
+.maxVH{
+  height: 50vh !important;
+}
+
+.justificado{
+  text-align: justify;
+}
+
+.pointer{
+  cursor:pointer;
+}
